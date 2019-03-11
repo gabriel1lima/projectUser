@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "nome": {
+        "first": "Isabelle",
+        "last": "Peixoto"
+      },
+      "email": "isabelle.peixoto@example.com",
+      "celular": "(64) 7578-5554",
+      "imagem": "https://randomuser.me/api/portraits/women/95.jpg"
+    },
+    {
+      "id": 2,
+      "nome": {
+        "first": "Gerberto",
+        "last": "Cardoso"
+      },
+      "email": "gerberto.cardoso@example.com",
+      "celular": "(33) 8218-5715",
+      "imagem": "https://randomuser.me/api/portraits/men/92.jpg"
+    },
+    {
+      "id": 5,
+      "nome": {
+        "first": "Frederico",
+        "last": "Freitas"
+      },
+      "email": "frederico.freitas@example.com",
+      "celular": "(32) 5059-4867",
+      "imagem": "https://randomuser.me/api/portraits/men/29.jpg"
+    },
+    {
+      "id": 6,
+      "nome": {
+        "first": "Diocléia",
+        "last": "Araújo"
+      },
+      "email": "diocléia.araújo@example.com",
+      "celular": "(95) 3930-4767",
+      "imagem": "https://randomuser.me/api/portraits/women/15.jpg"
+    },
+    {
+      "id": 7,
+      "nome": {
+        "first": "Adosindo",
+        "last": "Campos"
+      },
+      "email": "adosindo.campos@example.com",
+      "celular": "(60) 7180-6469",
+      "imagem": "https://randomuser.me/api/portraits/men/67.jpg"
+    },
+    {
+      "id": 8,
+      "nome": {
+        "first": "Roselaine",
+        "last": "Moreira"
+      },
+      "email": "roselaine.moreira@example.com",
+      "celular": "(62) 2702-6131",
+      "imagem": "https://randomuser.me/api/portraits/women/45.jpg"
+    },
+    {
+      "id": 9,
+      "nome": {
+        "first": "Zilma",
+        "last": "Caldeira"
+      },
+      "email": "zilma.caldeira@example.com",
+      "celular": "(84) 1203-0445",
+      "imagem": "https://randomuser.me/api/portraits/women/50.jpg"
+    },
+    {
+      "nome": {
+        "first": "Gabriel",
+        "last": "Lima"
+      },
+      "email": "gabriel.lima@gmail.com",
+      "celular": "(88) 99779-5069",
+      "imagem": "https://randomuser.me/api/portraits/men/60.jpg",
+      "id": 10
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+<app-navbar></app-navbar>
+<div class="container">
+  <div class="row justify-content-center mt-5">
+    <div class="col-md-10">
+
+      <div class="card">
+        <div class="card-body">
+          <form [formGroup]="addForm" (ngSubmit)="onSubmit()">
+            <div formGroupName="nome" class="mb-3">
+              <div class="form-row">
+                <div class="col">
+                  <label for="first">Nome</label>
+                  <input formControlName="first" id="first" type="text" class="form-control" placeholder="Primeiro nome">
+                </div>
+                <div class="col">
+                  <label for="last">Sobrenome</label>
+                  <input formControlName="last" id="last" type="text" class="form-control" placeholder="Segundo nome">
+                </div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="form-row">
+                <div class="col">
+                  <label for="email">Email</label>
+                  <input formControlName="email" id="email" type="text" class="form-control" placeholder="E-mail">
+                </div>
+                <div class="col">
+                  <label for="celular">Celular</label>
+                  <input formControlName="celular" id="celular" type="text" class="form-control" placeholder="Celular">
+                </div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="form-group">
+                <label for="imagem">Imagem</label>
+                <input formControlName="imagem" id="imagem" type="text" class="form-control" placeholder="URL da imagem">
+              </div>
+            </div>
+
+            <button class="btn btn-success btn-sm">Ok</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
