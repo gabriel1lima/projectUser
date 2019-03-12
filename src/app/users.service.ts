@@ -9,7 +9,7 @@ import { catchError, map, tap } from 'rxjs/operators';
 export class UsersService {
   baseUrl = "http://localhost:3000/users";
 
-  /* POST */
+  /* POST - Cria usuário */
   addUser(user: Object): Observable<[]> {
     const httpOptions = {
       headers: new HttpHeaders({ 'Content-Type': 'application/json' })
@@ -20,7 +20,7 @@ export class UsersService {
       );
   }
   
-  /* GET */
+  /* GET - Busca usuário pelo ID */
   getUser(id: number): Observable<{}> {
     return this.http.get<{}>(this.baseUrl + `/${id}`)
       .pipe(
@@ -28,7 +28,7 @@ export class UsersService {
       );
   }
 
-  /* GET */
+  /* GET - Busca todos os usuários */
   getUsers(): Observable<[]> {
     return this.http.get<[]>(this.baseUrl)
       .pipe(
@@ -36,7 +36,7 @@ export class UsersService {
       );
   }
 
-  /* PUT */
+  /* PUT - Edita um usuário */
   updateUser (user: Object): Observable<any> {
     const httpOptions = {
       headers: new HttpHeaders({ 'Content-Type': 'application/json' })
@@ -47,7 +47,7 @@ export class UsersService {
     );
   }
 
-  /* DELETE */
+  /* DELETE - Apaga um usuário */
   deleteUser(idUser: number): Observable<[]> {
     return this.http.delete<[]>(this.baseUrl + `/${idUser}`)
       .pipe(

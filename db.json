@@ -48,7 +48,7 @@
       },
       "email": "roselaine.moreira@example.com",
       "celular": "(62) 2702-6131",
-      "imagem": "https://randomuser.me/api/portraits/women/45.jpg"
+      "imagem": "https://randomuser.me/api/portraits/women/65.jpg"
     },
     {
       "nome": {
@@ -59,6 +59,26 @@
       "celular": "(88) 99779-5069",
       "imagem": "https://lh3.googleusercontent.com/a-/AAuE7mBeMu_ioRzhVuEU2JpjT1sOwV3N1q6UgfkDNhJa6w=s192",
       "id": 10
+    },
+    {
+      "nome": {
+        "first": "Anderson",
+        "last": "Malheiro"
+      },
+      "email": "malheiroanderson97@gmail.com",
+      "celular": "(88) 99327-3843",
+      "imagem": "https://avatars1.githubusercontent.com/u/41576677?s=460&v=4",
+      "id": 11
+    },
+    {
+      "nome": {
+        "first": "Viviany",
+        "last": "Figueiredo"
+      },
+      "email": "vivianyfigueiredo678@gmail.com",
+      "celular": "(88) 99437-1715",
+      "imagem": "https://randomuser.me/api/portraits/women/96.jpg",
+      "id": 12
     }
   ]
 }

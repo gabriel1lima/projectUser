@@ -37,7 +37,7 @@
               </div>
             </div>
 
-            <button class="btn btn-outline-success mt-2">Adicionar</button>
+            <button [disabled]="!addForm.valid" type="submit" class="btn btn-outline-success mt-2">Adicionar</button>
           </form>
         </div>
       </div>
