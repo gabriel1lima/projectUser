@@ -1,21 +1,28 @@
 <div class="container">
   <app-navbar></app-navbar>
-  <div class="row mt-3">
+  <div class="row mt-3 justify-content-center">
+    <div class="mt-5" *ngIf="error">
+      <h4 class="h4 h4-responsive">Erro ao se comunicar com o servidor :(</h4>
+    </div>
     <div *ngFor="let user of users" class="col-md-6 mb-4">
       <div class="card card-default shadow" style="border-radius: 20px" id="card_contacts">
         <div id="contacts" class="panel-collapse collapse show" aria-expanded="true" style="">
           <div class="row">
             <div class="col-md-4">
-              <img src="{{user.imagem}}" alt="Mike Anamendolla" style="height: 135px;" class="rounded-circle mx-auto d-block img-fluid my-2">
+              <img src="{{user.imagem}}" alt="Mike Anamendolla" style="max-height: 120px; min-height: 80px;" class="rounded-circle mx-auto d-block img-fluid my-2">
             </div>
             <div class="col-md-8 text-center text-sm-left my-2">
+              
+              <span *ngIf="user.favorite" class="fas fa-star text-warning float-right mt-1 mr-2" (click)="favoriteUser(user)" style="font-size: 22px" title="Favoritar"></span>
+              <span *ngIf="!user.favorite" class="far fa-star text-warning float-right mt-1 mr-2" (click)="favoriteUser(user)" style="font-size: 22px" title="Favoritar"></span>
+              
               <label class="name lead">{{user.nome.first}} {{user.nome.last}}</label>
               <br>
               <span class="fa fa-phone fa-fw text-muted" data-toggle="tooltip" title="" data-original-title="(870) 288-4149"></span>
-              <span class="text-muted small">{{user.celular}}</span>
+              <span class="text-muted"> {{user.celular}}</span>
               <br>
               <span class="fa fa-envelope fa-fw text-muted" data-toggle="tooltip" data-original-title="" title=""></span>
-              <span class="text-muted small text-truncate">{{user.email}}</span>
+              <span class="text-muted text-truncate"> {{user.email}}</span>
               <br>
               <button (click)="deleteUser(user.id)" style="padding: 0px" class="btn btn-white text-danger">
                 <i class="fas fa-trash"></i> Apagar

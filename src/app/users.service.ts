@@ -16,7 +16,7 @@ export class UsersService {
     };
     return this.http.post<[]>(this.baseUrl, user, httpOptions)
       .pipe(
-        tap(_ => console.log("create user")),
+        tap(_ => {}),
       );
   }
   
@@ -24,15 +24,15 @@ export class UsersService {
   getUser(id: number): Observable<{}> {
     return this.http.get<{}>(this.baseUrl + `/${id}`)
       .pipe(
-        tap(_ => console.log("get user")),
+        tap(_ => {}),
       );
   }
 
   /* GET - Busca todos os usuários */
   getUsers(): Observable<[]> {
-    return this.http.get<[]>(this.baseUrl)
+    return this.http.get<[]>(this.baseUrl + '?_sort=favorite&_order=desc')
       .pipe(
-        tap(_ => console.log("get users")),
+        tap(_ => {}),
       );
   }
 
@@ -41,9 +41,19 @@ export class UsersService {
     const httpOptions = {
       headers: new HttpHeaders({ 'Content-Type': 'application/json' })
     };
-    console.log(user['id']);
     return this.http.put(this.baseUrl + `/${user['id']}`, user, httpOptions).pipe(
-      tap(_ => console.log('updated user')),
+      tap(_ => {}),
+    );
+  }
+
+  /* PUT - Difine usuário como favorito */
+  favoriteUser (user: object): Observable<any> {
+    user['favorite'] = !user['favorite']
+    const httpOptions = {
+      headers: new HttpHeaders({ 'Content-Type': 'application/json' })
+    };
+    return this.http.put(this.baseUrl + `/${user['id']}`, user, httpOptions).pipe(
+      tap(_ => {}),
     );
   }
 
@@ -51,7 +61,7 @@ export class UsersService {
   deleteUser(idUser: number): Observable<[]> {
     return this.http.delete<[]>(this.baseUrl + `/${idUser}`)
       .pipe(
-        tap(_ => console.log("delete user")),
+        tap(_ => {}),
       )
   }
 

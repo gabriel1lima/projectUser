@@ -1,54 +1,37 @@
 {
   "users": [
     {
-      "id": 0,
-      "nome": {
-        "first": "Isabelle",
-        "last": "Peixoto"
-      },
-      "email": "isabelle.peixoto@example.com",
-      "celular": "(64) 7578-5554",
-      "imagem": "https://randomuser.me/api/portraits/women/95.jpg"
-    },
-    {
-      "id": 5,
-      "nome": {
-        "first": "Frederico",
-        "last": "Freitas"
-      },
-      "email": "frederico.freitas@example.com",
-      "celular": "(32) 5059-4867",
-      "imagem": "https://randomuser.me/api/portraits/men/29.jpg"
-    },
-    {
-      "id": 6,
       "nome": {
         "first": "Diocléia",
         "last": "Araújo"
       },
       "email": "diocléia.araújo@example.com",
       "celular": "(95) 3930-4767",
-      "imagem": "https://randomuser.me/api/portraits/women/15.jpg"
+      "imagem": "https://randomuser.me/api/portraits/women/15.jpg",
+      "id": 6,
+      "favorite": false
     },
     {
-      "id": 7,
       "nome": {
         "first": "Adosindo",
         "last": "Campos"
       },
       "email": "adosindo.campos@example.com",
       "celular": "(60) 7180-6469",
-      "imagem": "https://randomuser.me/api/portraits/men/67.jpg"
+      "imagem": "https://randomuser.me/api/portraits/men/67.jpg",
+      "id": 7,
+      "favorite": false
     },
     {
-      "id": 8,
       "nome": {
         "first": "Roselaine",
         "last": "Moreira"
       },
       "email": "roselaine.moreira@example.com",
       "celular": "(62) 2702-6131",
-      "imagem": "https://randomuser.me/api/portraits/women/65.jpg"
+      "imagem": "https://randomuser.me/api/portraits/women/65.jpg",
+      "id": 8,
+      "favorite": false
     },
     {
       "nome": {
@@ -58,7 +41,8 @@
       "email": "gabriel.lima@gmail.com",
       "celular": "(88) 99779-5069",
       "imagem": "https://lh3.googleusercontent.com/a-/AAuE7mBeMu_ioRzhVuEU2JpjT1sOwV3N1q6UgfkDNhJa6w=s192",
-      "id": 10
+      "id": 10,
+      "favorite": true
     },
     {
       "nome": {
@@ -68,7 +52,8 @@
       "email": "malheiroanderson97@gmail.com",
       "celular": "(88) 99327-3843",
       "imagem": "https://avatars1.githubusercontent.com/u/41576677?s=460&v=4",
-      "id": 11
+      "id": 11,
+      "favorite": false
     },
     {
       "nome": {
@@ -77,8 +62,9 @@
       },
       "email": "vivianyfigueiredo678@gmail.com",
       "celular": "(88) 99437-1715",
-      "imagem": "https://randomuser.me/api/portraits/women/96.jpg",
-      "id": 12
+      "imagem": "https://lh3.googleusercontent.com/a-/AAuE7mCFsnRfw8oW-SCu8wjxEa7cSGUAU5LakYBAP1PUbQ=s192",
+      "id": 12,
+      "favorite": true
     }
   ]
 }

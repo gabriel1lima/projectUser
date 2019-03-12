@@ -32,7 +32,6 @@ export class UpdateUserComponent implements OnInit {
   }
 
   updateUser(): void {
-    console.log(this.user)
     this.userService.updateUser(this.user).subscribe(_ => this.router.navigate(['users']));
   }
 
