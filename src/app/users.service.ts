@@ -41,7 +41,8 @@ export class UsersService {
     const httpOptions = {
       headers: new HttpHeaders({ 'Content-Type': 'application/json' })
     };
-    return this.http.put(this.baseUrl + `/${user.id}`, user, httpOptions).pipe(
+    console.log(user['id']);
+    return this.http.put(this.baseUrl + `/${user['id']}`, user, httpOptions).pipe(
       tap(_ => console.log('updated user')),
     );
   }

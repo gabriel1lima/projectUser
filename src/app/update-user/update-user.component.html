@@ -9,11 +9,11 @@
             <div class="form-row">
               <div class="col">
                 <label for="first">Nome</label>
-                <input [ngModel]="user.nome.first" id="first" type="text" class="form-control" placeholder="Primeiro nome">
+                <input [(ngModel)]="user.nome.first" id="first" type="text" class="form-control" placeholder="Primeiro nome">
               </div>
               <div class="col">
                 <label for="last">Sobrenome</label>
-                <input [ngModel]="user.nome.last" id="last" type="text" class="form-control" placeholder="Segundo nome">
+                <input [(ngModel)]="user.nome.last" id="last" type="text" class="form-control" placeholder="Segundo nome">
               </div>
             </div>
           </div>
@@ -21,18 +21,18 @@
             <div class="form-row">
               <div class="col">
                 <label for="email">Email</label>
-                <input [ngModel]="user.email" id="email" type="text" class="form-control" placeholder="E-mail">
+                <input [(ngModel)]="user.email" id="email" type="text" class="form-control" placeholder="E-mail">
               </div>
               <div class="col">
                 <label for="celular">Celular</label>
-                <input [ngModel]="user.celular" id="celular" type="text" class="form-control" placeholder="Celular">
+                <input [(ngModel)]="user.celular" id="celular" type="text" class="form-control" placeholder="Celular">
               </div>
             </div>
           </div>
           <div class="mb-3">
             <div class="form-group">
               <label for="imagem">Imagem</label>
-              <input  [ngModel]="user.imagem"  id="imagem" type="text" class="form-control" placeholder="URL da imagem">
+              <input  [(ngModel)]="user.imagem"  id="imagem" type="text" class="form-control" placeholder="URL da imagem">
             </div>
           </div>
 

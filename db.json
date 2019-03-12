@@ -11,16 +11,6 @@
       "imagem": "https://randomuser.me/api/portraits/women/95.jpg"
     },
     {
-      "id": 2,
-      "nome": {
-        "first": "Gerberto",
-        "last": "Cardoso"
-      },
-      "email": "gerberto.cardoso@example.com",
-      "celular": "(33) 8218-5715",
-      "imagem": "https://randomuser.me/api/portraits/men/92.jpg"
-    },
-    {
       "id": 5,
       "nome": {
         "first": "Frederico",
@@ -79,6 +69,16 @@
       "celular": "(88) 99779-5069",
       "imagem": "https://randomuser.me/api/portraits/men/60.jpg",
       "id": 10
+    },
+    {
+      "nome": {
+        "first": "Viviany",
+        "last": "Figueiredo"
+      },
+      "email": "vivianyfigueiredo678@gmail.com",
+      "celular": "(88) 99437-1715",
+      "imagem": "https://randomuser.me/api/portraits/women/96.jpg",
+      "id": 11
     }
   ]
 }
