@@ -51,34 +51,14 @@
       "imagem": "https://randomuser.me/api/portraits/women/45.jpg"
     },
     {
-      "id": 9,
-      "nome": {
-        "first": "Zilma",
-        "last": "Caldeira"
-      },
-      "email": "zilma.caldeira@example.com",
-      "celular": "(84) 1203-0445",
-      "imagem": "https://randomuser.me/api/portraits/women/50.jpg"
-    },
-    {
       "nome": {
         "first": "Gabriel",
         "last": "Lima"
       },
       "email": "gabriel.lima@gmail.com",
       "celular": "(88) 99779-5069",
-      "imagem": "https://randomuser.me/api/portraits/men/60.jpg",
+      "imagem": "https://lh3.googleusercontent.com/a-/AAuE7mBeMu_ioRzhVuEU2JpjT1sOwV3N1q6UgfkDNhJa6w=s192",
       "id": 10
-    },
-    {
-      "nome": {
-        "first": "Viviany",
-        "last": "Figueiredo"
-      },
-      "email": "vivianyfigueiredo678@gmail.com",
-      "celular": "(88) 99437-1715",
-      "imagem": "https://randomuser.me/api/portraits/women/96.jpg",
-      "id": 11
     }
   ]
 }

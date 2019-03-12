@@ -1,7 +1,7 @@
-<app-navbar></app-navbar>
 <div class="container">
-  <div class="row justify-content-center mt-5">
-    <div class="col-md-10">
+  <app-navbar></app-navbar>
+  <div class="row justify-content-center mt-3">
+    <div class="col-md-12">
 
       <div class="card">
         <div class="card-body">
@@ -32,12 +32,11 @@
           <div class="mb-3">
             <div class="form-group">
               <label for="imagem">Imagem</label>
-              <input  [(ngModel)]="user.imagem"  id="imagem" type="text" class="form-control" placeholder="URL da imagem">
+              <input [(ngModel)]="user.imagem" id="imagem" type="text" class="form-control" placeholder="URL da imagem">
             </div>
           </div>
 
-          <button (click)="updateUser()" class="btn btn-success btn-sm">Salvar</button>
-
+          <button (click)="updateUser()" class="btn btn-outline-info mt-2">Salvar</button>
         </div>
       </div>
     </div>
